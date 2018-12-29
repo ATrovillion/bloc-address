@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Aaron M. Trovillion",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATrovillion/bloc-address.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ATrovillion/bloc-address/issues"
+  },
+  "homepage": "https://github.com/ATrovillion/bloc-address#readme"
 }

@@ -8,7 +8,6 @@ describe("MenuController", () => {
 
     describe("#getContactCount()", () => {
 
-
         it("should return 0 when no contacts are in the book", () => {
         });
 

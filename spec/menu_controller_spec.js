@@ -8,7 +8,6 @@ describe("MenuController", () => {
 
     describe("#getContactCount()", () => {
 
-
         it("should return 0 when no contacts are in the book", () => {
         });
 
@@ -17,4 +16,10 @@ describe("MenuController", () => {
             expect(this.menu.getContactCount()).toBe(1)
         });
     });
+
+    describe("#remindMe()", () => {
+
+        it("should return a string containing the text 'Learning is a life-long pursuit'", () => {
+        })
+    })
 });

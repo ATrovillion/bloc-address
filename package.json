@@ -4,7 +4,7 @@
   "description": "An application to model an address book in Node",
   "main": "app.js",
   "scripts": {
-    "test": "set NODE_ENV=test && jasmine"
+    "test": "set NODE_ENV=test&& jasmine"
   },
   "author": "Aaron M. Trovillion",
   "license": "ISC",
@@ -18,7 +18,9 @@
   "homepage": "https://github.com/ATrovillion/bloc-address#readme",
   "dependencies": {
     "inquirer": "^5.1.0",
-    "sequelize": "^4.42.0",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.32.6",
     "sequelize-cli": "^5.4.0"
   },
   "devDependencies": {

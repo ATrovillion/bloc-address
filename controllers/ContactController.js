@@ -111,8 +111,8 @@ module.exports = class ContactController {
 
     delete(id){
         return Contact.destroy({
-            where: { id }
+            where: {id}
         })
-    };
+    }
 
 }

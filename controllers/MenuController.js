@@ -128,7 +128,7 @@ module.exports = class MenuController {
         inquirer.prompt(this.book.showContactQuestions)
         .then((answer) => {
             switch(answer.selected){
-                case "Delete Contact":
+                case "Delete contact":
                     this.delete(contact);
                     break;
                 case "Main menu":
